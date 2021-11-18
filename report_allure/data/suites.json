@@ -1,0 +1,1008 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_zhuyuan",
+    "children" : [ {
+      "name" : "test_patient",
+      "children" : [ {
+        "name" : "Testzhuyuan",
+        "children" : [ {
+          "name" : "患者列表",
+          "uid" : "a2a3c975e133da30",
+          "parentUid" : "52be0ee420af47c04688bba53f03b7d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428692917,
+            "stop" : 1636428693006,
+            "duration" : 89
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15}'" ]
+        }, {
+          "name" : "患者列表",
+          "uid" : "90d1a5c14da8cc5f",
+          "parentUid" : "52be0ee420af47c04688bba53f03b7d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428693010,
+            "stop" : 1636428693087,
+            "duration" : 77
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15, \"deptId\": \"1001\"}'" ]
+        }, {
+          "name" : "患者列表",
+          "uid" : "90e49c3be01431f9",
+          "parentUid" : "52be0ee420af47c04688bba53f03b7d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428693090,
+            "stop" : 1636428693187,
+            "duration" : 97
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15, \"bedNum\": \"08\"}'" ]
+        }, {
+          "name" : "患者列表",
+          "uid" : "6ee487a5770a4654",
+          "parentUid" : "52be0ee420af47c04688bba53f03b7d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428693190,
+            "stop" : 1636428693275,
+            "duration" : 85
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15, \"iptNum\": \"145\"}'" ]
+        }, {
+          "name" : "出院患者列表",
+          "uid" : "1c2ae3f267ea4627",
+          "parentUid" : "52be0ee420af47c04688bba53f03b7d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428693278,
+            "stop" : 1636428693402,
+            "duration" : 124
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15}'" ]
+        }, {
+          "name" : "出院患者列表",
+          "uid" : "5681d835ebf4aa8e",
+          "parentUid" : "52be0ee420af47c04688bba53f03b7d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428693413,
+            "stop" : 1636428693516,
+            "duration" : 103
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15, \"deptId\": \"1001\"}'" ]
+        }, {
+          "name" : "出院患者列表",
+          "uid" : "35e92e1b4f533596",
+          "parentUid" : "52be0ee420af47c04688bba53f03b7d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428693521,
+            "stop" : 1636428693606,
+            "duration" : 85
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15, \"iptNum\": \"145\"}'" ]
+        }, {
+          "name" : "出院患者列表",
+          "uid" : "5d655dfc338fdce5",
+          "parentUid" : "52be0ee420af47c04688bba53f03b7d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428693609,
+            "stop" : 1636428693694,
+            "duration" : 85
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15, \"name\": \"\\u6d4b\\u8bd5\"}'" ]
+        }, {
+          "name" : "患者详情",
+          "uid" : "c0ffdb5e893694cf",
+          "parentUid" : "52be0ee420af47c04688bba53f03b7d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428693698,
+            "stop" : 1636428693791,
+            "duration" : 93
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\"}'" ]
+        }, {
+          "name" : "患者详情",
+          "uid" : "6dde94ab68bc2987",
+          "parentUid" : "52be0ee420af47c04688bba53f03b7d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428693794,
+            "stop" : 1636428693892,
+            "duration" : 98
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"iptNum\": \"145\"}'" ]
+        }, {
+          "name" : "控糖目标",
+          "uid" : "43c0058dfe48c836",
+          "parentUid" : "52be0ee420af47c04688bba53f03b7d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428693895,
+            "stop" : 1636428693984,
+            "duration" : 89
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\"}'" ]
+        }, {
+          "name" : "换床",
+          "uid" : "16e75d74729a6dae",
+          "parentUid" : "52be0ee420af47c04688bba53f03b7d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428693987,
+            "stop" : 1636428694110,
+            "duration" : 123
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"bedNum\": 150}'" ]
+        }, {
+          "name" : "换床",
+          "uid" : "33c195904464762d",
+          "parentUid" : "52be0ee420af47c04688bba53f03b7d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428694114,
+            "stop" : 1636428694270,
+            "duration" : 156
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"bedNum\": \"+1\"}'" ]
+        }, {
+          "name" : "更新患者基本信息",
+          "uid" : "c817f09dd6e5eb4f",
+          "parentUid" : "52be0ee420af47c04688bba53f03b7d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428694274,
+            "stop" : 1636428694418,
+            "duration" : 144
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"birthday\": \"2021-11-09 00:00:00\", \"deptId\": \"1001\", \"gender\": 1, \"iptNum\": \"145\", \"iptTime\": \"2021-11-09 11:30:51\", \"name\": \"CS\", \"status\": 1, \"userId\": \"510415980904579072\", \"bedNum\": \"44\", \"phone\": \"13759579882\"}'" ]
+        }, {
+          "name" : "更新患者基本信息",
+          "uid" : "17f8a180739a2ce1",
+          "parentUid" : "52be0ee420af47c04688bba53f03b7d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428694422,
+            "stop" : 1636428694559,
+            "duration" : 137
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"birthday\": \"2021-11-09 00:00:00\", \"deptId\": \"1001\", \"gender\": 1, \"iptNum\": \"145\", \"iptTime\": \"2021-11-09 11:30:51\", \"name\": \"CS\", \"status\": 1, \"userId\": \"510415980904579072\", \"bedNum\": 107, \"phone\": \"\"}'" ]
+        }, {
+          "name" : "添加患者",
+          "uid" : "99a4142299bda4f5",
+          "parentUid" : "52be0ee420af47c04688bba53f03b7d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428694563,
+            "stop" : 1636428694700,
+            "duration" : 137
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"name\": \"CS\", \"gender\": 2, \"birthday\": \"2021-11-09\", \"iptNum\": 27, \"deptId\": \"1001\", \"deptName\": \"\\u5185\\u4e00\\u79d1\", \"iptTime\": \"2021-11-09 11:31:32\"}'" ]
+        } ],
+        "uid" : "52be0ee420af47c04688bba53f03b7d3"
+      } ],
+      "uid" : "9931bb582421dce6fed6a19f0471c1cd"
+    } ],
+    "uid" : "759035489b11538f5ca30339b74a2065"
+  }, {
+    "name" : "testCase.test_zhuyuan",
+    "children" : [ {
+      "name" : "test_patient_blood",
+      "children" : [ {
+        "name" : "Test_zy_blood",
+        "children" : [ {
+          "name" : "住院患者血糖列表",
+          "uid" : "3bbed92f85faa12",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428695019,
+            "stop" : 1636428695149,
+            "duration" : 130
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"pageNo\": 1, \"orderBy\": \"measure_time desc\", \"pageSize\": 20, \"patGluStatus\": 1}'" ]
+        }, {
+          "name" : "住院患者血糖列表",
+          "uid" : "f53a7f5e807bcae8",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428695154,
+            "stop" : 1636428695271,
+            "duration" : 117
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"pageNo\": 1, \"orderBy\": \"measure_time desc\", \"pageSize\": 10, \"patGluStatus\": 2}'" ]
+        }, {
+          "name" : "住院患者血糖列表",
+          "uid" : "66c899ee419d74a3",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428695275,
+            "stop" : 1636428695417,
+            "duration" : 142
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"pageNo\": 1, \"orderBy\": \"measure_time desc\", \"pageSize\": 10, \"patGluStatus\": 3}'" ]
+        }, {
+          "name" : "住院患者血糖报告",
+          "uid" : "3028a68d1afe16a1",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428695421,
+            "stop" : 1636428695553,
+            "duration" : 132
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"pageNo\": 1, \"orderBy\": \"measure_time desc\", \"pageSize\": 10, \"patGluStatus\": 1}'" ]
+        }, {
+          "name" : "住院患者血糖报告",
+          "uid" : "4531c14085a1b583",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428695565,
+            "stop" : 1636428695695,
+            "duration" : 130
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"pageNo\": 1, \"orderBy\": \"measure_time desc\", \"pageSize\": 20, \"patGluStatus\": 2}'" ]
+        }, {
+          "name" : "住院患者血糖报告",
+          "uid" : "831028893f743129",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428695699,
+            "stop" : 1636428695839,
+            "duration" : 140
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"pageNo\": 1, \"orderBy\": \"measure_time desc\", \"pageSize\": 20, \"patGluStatus\": 3}'" ]
+        }, {
+          "name" : "住院血糖添加",
+          "uid" : "931e3b15d19ae608",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428695844,
+            "stop" : 1636428696031,
+            "duration" : 187
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"value\": 5, \"valueUnit\": 1, \"method\": 0, \"nurseId\": \"vivachek\", \"timeType\": \"\\u7a7a\\u8179\", \"measureTime\": \"2021-11-09 11:31:34\", \"unusual\": 1, \"comment\": \"zdh0\"}'" ]
+        }, {
+          "name" : "住院血糖添加",
+          "uid" : "fac3dcfc3b9210a9",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428696047,
+            "stop" : 1636428696218,
+            "duration" : 171
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"value\": 33.3, \"valueUnit\": 1, \"method\": 0, \"nurseId\": \"vivachek\", \"timeType\": \"\\u65e9\\u9910\\u540e\", \"measureTime\": \"2021-11-09 11:31:34\", \"unusual\": 2, \"comment\": \"zdh1\"}'" ]
+        }, {
+          "name" : "住院血糖添加",
+          "uid" : "8dcfbdfb64982c31",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428696223,
+            "stop" : 1636428696399,
+            "duration" : 176
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"value\": 0.6, \"valueUnit\": 1, \"method\": 0, \"nurseId\": \"vivachek\", \"timeType\": \"\\u65e9\\u9910\\u540e\", \"measureTime\": \"2021-11-09 11:31:34\", \"unusual\": 0, \"comment\": \"zdh2\"}'" ]
+        }, {
+          "name" : "住院血糖添加",
+          "uid" : "8c09091e64954ecc",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428696403,
+            "stop" : 1636428696595,
+            "duration" : 192
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"valueUnit\": 1, \"method\": 0, \"nurseId\": \"vivachek\", \"timeType\": \"\\u5348\\u9910\\u524d\", \"measureTime\": \"2021-11-09 11:31:34\", \"unusual\": 3, \"comment\": \"zdh3\"}'" ]
+        }, {
+          "name" : "住院血糖添加",
+          "uid" : "a415d0fbaf589613",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428696602,
+            "stop" : 1636428696809,
+            "duration" : 207
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"valueUnit\": 1, \"method\": 0, \"nurseId\": \"vivachek\", \"timeType\": \"\\u5348\\u9910\\u540e\", \"measureTime\": \"2021-11-09 11:31:34\", \"unusual\": 4, \"comment\": \"zdh4\"}'" ]
+        }, {
+          "name" : "住院血糖添加",
+          "uid" : "84e3ed99096e70c4",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428696812,
+            "stop" : 1636428696958,
+            "duration" : 146
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"valueUnit\": 1, \"method\": 0, \"nurseId\": \"vivachek\", \"timeType\": \"\\u665a\\u9910\\u524d\", \"measureTime\": \"2021-11-09 11:31:34\", \"unusual\": 5, \"comment\": \"zdh5\"}'" ]
+        }, {
+          "name" : "住院血糖添加",
+          "uid" : "6946f3bed3be51e2",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428696962,
+            "stop" : 1636428697132,
+            "duration" : 170
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"valueUnit\": 1, \"method\": 0, \"nurseId\": \"vivachek\", \"timeType\": \"\\u665a\\u9910\\u540e\", \"measureTime\": \"2021-11-09 11:31:34\", \"unusual\": 6, \"comment\": \"zdh6\"}'" ]
+        }, {
+          "name" : "住院血糖添加",
+          "uid" : "1ecae894b7296e19",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428697138,
+            "stop" : 1636428697313,
+            "duration" : 175
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"valueUnit\": 1, \"method\": 0, \"nurseId\": \"vivachek\", \"timeType\": \"\\u968f\\u673a\", \"measureTime\": \"2021-11-09 11:31:34\", \"unusual\": 7, \"comment\": \"zdh7\"}'" ]
+        }, {
+          "name" : "住院血糖添加",
+          "uid" : "1119b2c44442a409",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428697319,
+            "stop" : 1636428697477,
+            "duration" : 158
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"valueUnit\": 1, \"method\": 0, \"nurseId\": \"vivachek\", \"timeType\": \"q3h\", \"measureTime\": \"2021-11-09 11:31:34\", \"unusual\": 8, \"comment\": \"zdh8\"}'" ]
+        }, {
+          "name" : "住院血糖添加",
+          "uid" : "6822fec8647327d3",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428697489,
+            "stop" : 1636428697679,
+            "duration" : 190
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"valueUnit\": 1, \"method\": 0, \"nurseId\": \"vivachek\", \"timeType\": \"\\u968f\\u673a\", \"measureTime\": \"2021-11-09 11:31:34\", \"unusual\": 9, \"comment\": \"zdh9\"}'" ]
+        }, {
+          "name" : "住院患者血糖趋势图",
+          "uid" : "7f0001b15c91464a",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428697683,
+            "stop" : 1636428697806,
+            "duration" : 123
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"patGluStatus\": 1}'" ]
+        }, {
+          "name" : "住院患者血糖统计图",
+          "uid" : "817ce91df7322a9a",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428697810,
+            "stop" : 1636428697913,
+            "duration" : 103
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"patGluStatus\": 1}'" ]
+        }, {
+          "name" : "住院患者血糖修改",
+          "uid" : "18c3f46952488f9e",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428697917,
+            "stop" : 1636428698095,
+            "duration" : 178
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"comment\": \"\\u4fee\\u6539\\u65f6\\u6bb5\", \"id\": \"19317\", \"measureTime\": \"2021-11-09 11:31:31\", \"method\": 0, \"value\": 5, \"nurseId\": \"vivachek\", \"timeType\": \"q2h\", \"unusual\": 1, \"userId\": \"510415980904579072\", \"valueUnit\": 1}'" ]
+        }, {
+          "name" : "住院患者血糖修改",
+          "uid" : "5feb2199a9ab3828",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428698106,
+            "stop" : 1636428698278,
+            "duration" : 172
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"comment\": \"\\u8840\\u7cd6\\u503c\\u4fee\\u6539\", \"id\": \"19317\", \"measureTime\": \"2021-11-09 11:31:31\", \"method\": 0, \"value\": 8, \"nurseId\": \"vivachek\", \"timeType\": \"\\u65e9\\u9910\\u524d\", \"unusual\": 1, \"userId\": \"510415980904579072\", \"valueUnit\": 1}'" ]
+        }, {
+          "name" : "住院患者血糖删除",
+          "uid" : "2e54baa901a6ed04",
+          "parentUid" : "20d1017439aee4c5eb3048b6e81e7e79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428698282,
+            "stop" : 1636428698459,
+            "duration" : 177
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"id\": \"19317\"}'" ]
+        } ],
+        "uid" : "20d1017439aee4c5eb3048b6e81e7e79"
+      } ],
+      "uid" : "0af3fae1d4e191da65d85e6d423bb5aa"
+    }, {
+      "name" : "test_order",
+      "children" : [ {
+        "name" : "Test_order",
+        "children" : [ {
+          "name" : "根据任务是不是解析是解析则添加血糖",
+          "uid" : "e327e24033ec0ed7",
+          "parentUid" : "207262a05f68da9e0338c993727874d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428698595,
+            "stop" : 1636428698600,
+            "duration" : 5
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"id\": 71954, \"userId\": \"510415980904579072\", \"value\": 5, \"valueUnit\": 1, \"method\": 0, \"nurseId\": \"vivachek\", \"timeType\": \"q2h\", \"measureTime\": \"2021-11-09 11:31:38\", \"unusual\": 1, \"comment\": \"zdh0\"}'" ]
+        }, {
+          "name" : "患者任务列表",
+          "uid" : "4ff84c467d28d88f",
+          "parentUid" : "207262a05f68da9e0338c993727874d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428698604,
+            "stop" : 1636428698781,
+            "duration" : 177
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510413310722572288\"}'" ]
+        }, {
+          "name" : "任务详情",
+          "uid" : "baaf8b537f752028",
+          "parentUid" : "207262a05f68da9e0338c993727874d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428698790,
+            "stop" : 1636428698940,
+            "duration" : 150
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"id\": 71954}'" ]
+        }, {
+          "name" : "编辑任务",
+          "uid" : "9b8e3184eb5aae3",
+          "parentUid" : "207262a05f68da9e0338c993727874d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428698944,
+            "stop" : 1636428699697,
+            "duration" : 753
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"id\": 8054, \"userId\": \"510413310722572288\", \"type\": 0, \"timeType\": \"\\u968f\\u673a\", \"startTime\": \"2021-11-09 11:31:38\", \"entrust\": \"zdh\"}'" ]
+        }, {
+          "name" : "停止任务",
+          "uid" : "1dddde0998ce8894",
+          "parentUid" : "207262a05f68da9e0338c993727874d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428699700,
+            "stop" : 1636428701622,
+            "duration" : 1922
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "207262a05f68da9e0338c993727874d5"
+      } ],
+      "uid" : "bce1e1c009af98a39837aede51c71f9c"
+    }, {
+      "name" : "test_temp_blood",
+      "children" : [ {
+        "name" : "Test_temp_blood",
+        "children" : [ {
+          "name" : "临时检测血糖添加",
+          "uid" : "80eea2bafda726d9",
+          "parentUid" : "44de91a9c9f8d0fbadae5440210e6e03",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428701724,
+            "stop" : 1636428701930,
+            "duration" : 206
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"value\": 5, \"valueUnit\": 1, \"method\": 0, \"nurseId\": \"vivachek\", \"timeType\": \"q2h\", \"measureTime\": \"2021-11-09 11:31:41\", \"unusual\": 1, \"comment\": \"\\u624b\\u52a8\\u6dfb\\u52a0\"}'" ]
+        }, {
+          "name" : "临时检测血糖添加",
+          "uid" : "f450f39df914fd07",
+          "parentUid" : "44de91a9c9f8d0fbadae5440210e6e03",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428701935,
+            "stop" : 1636428702149,
+            "duration" : 214
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"userId\": \"510415980904579072\", \"value\": 6.2, \"valueUnit\": 1, \"method\": 0, \"nurseId\": \"vivachek\", \"timeType\": \"q2h\", \"measureTime\": \"2021-11-09 11:31:41\", \"unusual\": 2, \"comment\": \"\\u7ed1\\u5b9a\\u60a3\\u8005\\u6dfb\\u52a0\"}'" ]
+        }, {
+          "name" : "临时检测血糖修改",
+          "uid" : "1d664743bd746155",
+          "parentUid" : "44de91a9c9f8d0fbadae5440210e6e03",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428702154,
+            "stop" : 1636428702307,
+            "duration" : 153
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"id\": \"19313\", \"timeType\": \"\\u65e9\\u9910\\u540e\"}'" ]
+        }, {
+          "name" : "临时检测血糖值绑定患者",
+          "uid" : "fe8149c4f80de94e",
+          "parentUid" : "44de91a9c9f8d0fbadae5440210e6e03",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428702311,
+            "stop" : 1636428702533,
+            "duration" : 222
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"id\": \"19313\", \"timeType\": \"\\u65e9\\u9910\\u540e\", \"userId\": \"510415980904579072\", \"comment\": \"\\u6dfb\\u52a0\"}'" ]
+        }, {
+          "name" : "临时检测血糖列表",
+          "uid" : "c4fa8165a3f99f2b",
+          "parentUid" : "44de91a9c9f8d0fbadae5440210e6e03",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428702548,
+            "stop" : 1636428702764,
+            "duration" : 216
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{}'" ]
+        }, {
+          "name" : "临时检测血糖列表",
+          "uid" : "2bda1dd37e21f8e4",
+          "parentUid" : "44de91a9c9f8d0fbadae5440210e6e03",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428702770,
+            "stop" : 1636428702938,
+            "duration" : 168
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"endtTime\": \"2021-11-09 11:31:41\", \"startTime\": \"2021-11-09 00:00:00\"}'" ]
+        }, {
+          "name" : "临时检测血糖删除",
+          "uid" : "6727f8154f919ec5",
+          "parentUid" : "44de91a9c9f8d0fbadae5440210e6e03",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428702942,
+            "stop" : 1636428703181,
+            "duration" : 239
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "44de91a9c9f8d0fbadae5440210e6e03"
+      } ],
+      "uid" : "c95f04290ba1a3e88e3f152d892d8d11"
+    }, {
+      "name" : "test_warning",
+      "children" : [ {
+        "name" : "Testzhuyuan",
+        "children" : [ {
+          "name" : "预警列表",
+          "uid" : "805598b4986cdff2",
+          "parentUid" : "9426af05ebe06425e621d0fe5deebac1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428703438,
+            "stop" : 1636428703689,
+            "duration" : 251
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15}'" ]
+        }, {
+          "name" : "预警列表",
+          "uid" : "90291dd0289d8474",
+          "parentUid" : "9426af05ebe06425e621d0fe5deebac1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428703692,
+            "stop" : 1636428703863,
+            "duration" : 171
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15, \"alarmType\": 1}'" ]
+        }, {
+          "name" : "预警列表",
+          "uid" : "512107f0175aa098",
+          "parentUid" : "9426af05ebe06425e621d0fe5deebac1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428703876,
+            "stop" : 1636428704088,
+            "duration" : 212
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15, \"alarmType\": 2}'" ]
+        }, {
+          "name" : "预警忽略",
+          "uid" : "ad3981fa42e10232",
+          "parentUid" : "9426af05ebe06425e621d0fe5deebac1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428704092,
+            "stop" : 1636428704242,
+            "duration" : 150
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "预警处理",
+          "uid" : "daf1c9212d4103b2",
+          "parentUid" : "9426af05ebe06425e621d0fe5deebac1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428704245,
+            "stop" : 1636428704398,
+            "duration" : 153
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9426af05ebe06425e621d0fe5deebac1"
+      } ],
+      "uid" : "77510a55320f10ab8be73a6df2218205"
+    } ],
+    "uid" : "c2e4291fc9b575c35d35d6689bc0510d"
+  }, {
+    "name" : "testCase.test_devices",
+    "children" : [ {
+      "name" : "test_paper",
+      "children" : [ {
+        "name" : "Test_paper",
+        "children" : [ {
+          "name" : "编辑试纸",
+          "uid" : "3d7ac82998a7bea5",
+          "parentUid" : "3019e23914ec06af391594b7f22de5cb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428704818,
+            "stop" : 1636428704966,
+            "duration" : 148
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "删除试纸",
+          "uid" : "946f2badfba08735",
+          "parentUid" : "3019e23914ec06af391594b7f22de5cb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428704970,
+            "stop" : 1636428705112,
+            "duration" : 142
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "添加试纸",
+          "uid" : "5142c7c4ef5a929d",
+          "parentUid" : "3019e23914ec06af391594b7f22de5cb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428705118,
+            "stop" : 1636428705281,
+            "duration" : 163
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"specs\": 0, \"paperNum\": 20, \"productionDate\": \"2018-09-01\", \"expiryDate\": \"2022-09-01\", \"lowMaxLimit\": \"50\", \"lowMinLimit\": \"2\", \"mediumMaxLimit\": \"40\", \"mediumMinLimit\": \"3\", \"highMaxLimit\": \"30\", \"highMinLimit\": \"6\", \"batchNum\": \"2019020231\"}'" ]
+        }, {
+          "name" : "查询试纸",
+          "uid" : "b3d9949415b7a902",
+          "parentUid" : "3019e23914ec06af391594b7f22de5cb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428705288,
+            "stop" : 1636428705474,
+            "duration" : 186
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15}'" ]
+        }, {
+          "name" : "查询试纸",
+          "uid" : "18e0a131ad8e9280",
+          "parentUid" : "3019e23914ec06af391594b7f22de5cb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428705482,
+            "stop" : 1636428705658,
+            "duration" : 176
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15, \"batchNum\": \"20\"}'" ]
+        } ],
+        "uid" : "3019e23914ec06af391594b7f22de5cb"
+      } ],
+      "uid" : "cb09b6f74e6bc9a4d7d9193cc1723fc0"
+    }, {
+      "name" : "test_liquid",
+      "children" : [ {
+        "name" : "Test_Liquid",
+        "children" : [ {
+          "name" : "编辑质控液",
+          "uid" : "2f6c711502b8d175",
+          "parentUid" : "01dc893146120a06ee13f1c40543eb35",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428705853,
+            "stop" : 1636428706003,
+            "duration" : 150
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "删除质控液",
+          "uid" : "914891a0f775bf",
+          "parentUid" : "01dc893146120a06ee13f1c40543eb35",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428706007,
+            "stop" : 1636428706141,
+            "duration" : 134
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "添加质控液",
+          "uid" : "17d24ff7de2742e0",
+          "parentUid" : "01dc893146120a06ee13f1c40543eb35",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428706144,
+            "stop" : 1636428706286,
+            "duration" : 142
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"specs\": 0, \"liquidNum\": 20, \"type\": 0, \"productionDate\": \"2018-09-01\", \"expiryDate\": \"2022-09-01\", \"batchNum\": \"2019020231\"}'" ]
+        }, {
+          "name" : "查询质控液",
+          "uid" : "1216261b108355a",
+          "parentUid" : "01dc893146120a06ee13f1c40543eb35",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428706290,
+            "stop" : 1636428706357,
+            "duration" : 67
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15}'" ]
+        }, {
+          "name" : "查询质控液",
+          "uid" : "d4d5b80216dabd05",
+          "parentUid" : "01dc893146120a06ee13f1c40543eb35",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428706360,
+            "stop" : 1636428706438,
+            "duration" : 78
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15, \"batchNum\": \"20\"}'" ]
+        } ],
+        "uid" : "01dc893146120a06ee13f1c40543eb35"
+      } ],
+      "uid" : "369860aba42f27054f5dc777ee0c6006"
+    } ],
+    "uid" : "2e20a3f80e6d6e47fc12e814657d20c7"
+  }, {
+    "name" : "testCase.test_qc",
+    "children" : [ {
+      "name" : "test_qc_record",
+      "children" : [ {
+        "name" : "Test_qc_record",
+        "children" : [ {
+          "name" : "编辑质控",
+          "uid" : "1773726dac86239f",
+          "parentUid" : "f52db989485b19aa57a3bafb42c87d50",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428707191,
+            "stop" : 1636428707331,
+            "duration" : 140
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "删除质控",
+          "uid" : "56836d7537bd2b10",
+          "parentUid" : "f52db989485b19aa57a3bafb42c87d50",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428707335,
+            "stop" : 1636428707465,
+            "duration" : 130
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "添加质控",
+          "uid" : "78ce76bc00a023fb",
+          "parentUid" : "f52db989485b19aa57a3bafb42c87d50",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428707467,
+            "stop" : 1636428707638,
+            "duration" : 171
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"value\": 15.3, \"sn\": \"359B0000357\", \"measureTime\": \"2021-11-09 11:31:47\", \"result\": 0, \"paperId\": 9, \"liquidId\": 5}'" ]
+        }, {
+          "name" : "查询质控",
+          "uid" : "5a188dbedc8b385d",
+          "parentUid" : "f52db989485b19aa57a3bafb42c87d50",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428707641,
+            "stop" : 1636428707711,
+            "duration" : 70
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15}'" ]
+        }, {
+          "name" : "查询质控",
+          "uid" : "f387afbafc89a26b",
+          "parentUid" : "f52db989485b19aa57a3bafb42c87d50",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428707715,
+            "stop" : 1636428707782,
+            "duration" : 67
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15, \"sn\": \"359B0000357\"}'" ]
+        }, {
+          "name" : "查询质控",
+          "uid" : "c4cbf8646c58744e",
+          "parentUid" : "f52db989485b19aa57a3bafb42c87d50",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428707785,
+            "stop" : 1636428707873,
+            "duration" : 88
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15, \"result\": \"0\"}'" ]
+        }, {
+          "name" : "查询质控",
+          "uid" : "c3c4f2bcbb8561d",
+          "parentUid" : "f52db989485b19aa57a3bafb42c87d50",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636428707876,
+            "stop" : 1636428707961,
+            "duration" : 85
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"pageNo\": 1, \"pageSize\": 15, \"type\": 0}'" ]
+        } ],
+        "uid" : "f52db989485b19aa57a3bafb42c87d50"
+      } ],
+      "uid" : "1e0359f067175affd0adb24d44f318e2"
+    } ],
+    "uid" : "e5d3212f9c7cb9d3f382f2bbb187d3e2"
+  } ]
+}

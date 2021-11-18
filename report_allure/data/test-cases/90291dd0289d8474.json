@@ -1,0 +1,81 @@
+{
+  "uid" : "90291dd0289d8474",
+  "name" : "预警列表",
+  "fullName" : "testCase.test_zhuyuan.test_warning.Testzhuyuan#test_glu_alarmList",
+  "historyId" : "5423417f4154c1c1db244cd38de6dd95",
+  "time" : {
+    "start" : 1636428703692,
+    "stop" : 1636428703863,
+    "duration" : 171
+  },
+  "description" : "该接口写了3个用例全部预警，高血糖，低血糖",
+  "descriptionHtml" : "<p>该接口写了3个用例全部预警，高血糖，低血糖</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "该接口写了3个用例全部预警，高血糖，低血糖",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "379c83165d50ef2c",
+      "name" : "log",
+      "source" : "379c83165d50ef2c.txt",
+      "type" : "text/plain",
+      "size" : 6877
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "血糖预警"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.test_zhuyuan"
+  }, {
+    "name" : "suite",
+    "value" : "test_warning"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testzhuyuan"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BFBFSDO6"
+  }, {
+    "name" : "thread",
+    "value" : "16208-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_zhuyuan.test_warning"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "info",
+    "value" : "'{\"pageNo\": 1, \"pageSize\": 15, \"alarmType\": 1}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90291dd0289d8474.json",
+  "parameterValues" : [ "'{\"pageNo\": 1, \"pageSize\": 15, \"alarmType\": 1}'" ]
+}

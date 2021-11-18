@@ -1,0 +1,81 @@
+{
+  "uid" : "6dde94ab68bc2987",
+  "name" : "患者详情",
+  "fullName" : "test_zhuyuan.test_patient.Testzhuyuan#test_patient_info",
+  "historyId" : "7ef3d15a263e49180027c9d1260d7e00",
+  "time" : {
+    "start" : 1636428693794,
+    "stop" : 1636428693892,
+    "duration" : 98
+  },
+  "description" : "该接口写了2个用例根据userid或者住院号",
+  "descriptionHtml" : "<p>该接口写了2个用例根据userid或者住院号</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "该接口写了2个用例根据userid或者住院号",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c30b96026450e2a9",
+      "name" : "log",
+      "source" : "c30b96026450e2a9.txt",
+      "type" : "text/plain",
+      "size" : 1190
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "住院患者"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_zhuyuan"
+  }, {
+    "name" : "suite",
+    "value" : "test_patient"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testzhuyuan"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BFBFSDO6"
+  }, {
+    "name" : "thread",
+    "value" : "16208-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_zhuyuan.test_patient"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "info",
+    "value" : "'{\"iptNum\": \"145\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6dde94ab68bc2987.json",
+  "parameterValues" : [ "'{\"iptNum\": \"145\"}'" ]
+}

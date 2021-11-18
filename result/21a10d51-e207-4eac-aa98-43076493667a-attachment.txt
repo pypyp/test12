@@ -1,0 +1,2 @@
+INFO     mylogger:open_database.py:27 执行的sqlselect * from `mengjin`.`dev_info` where id ='16'
+DEBUG    mylogger:test_dev.py:70 删除设备：传参16返回体{'code': 0, 'msg': '请求成功'}

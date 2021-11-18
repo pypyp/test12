@@ -1,0 +1,15 @@
+pytest==6.2.4
+allure-pytest==2.9.43
+allure-python-commons==2.9.43
+requests==2.25.1
+python-jenkins==1.7.0
+Appium-Python-Client==1.2.0
+html-testRunner==1.2.1
+selenium==3.141.0
+pyyaml
+pytest-html
+pytest-xdist
+pytest-ordering
+pytest-rerunfailures
+
+

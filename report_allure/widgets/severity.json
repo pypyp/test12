@@ -1,0 +1,711 @@
+[ {
+  "uid" : "78ce76bc00a023fb",
+  "name" : "添加质控",
+  "time" : {
+    "start" : 1636428707467,
+    "stop" : 1636428707638,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "946f2badfba08735",
+  "name" : "删除试纸",
+  "time" : {
+    "start" : 1636428704970,
+    "stop" : 1636428705112,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b8e3184eb5aae3",
+  "name" : "编辑任务",
+  "time" : {
+    "start" : 1636428698944,
+    "stop" : 1636428699697,
+    "duration" : 753
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4d5b80216dabd05",
+  "name" : "查询质控液",
+  "time" : {
+    "start" : 1636428706360,
+    "stop" : 1636428706438,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43c0058dfe48c836",
+  "name" : "控糖目标",
+  "time" : {
+    "start" : 1636428693895,
+    "stop" : 1636428693984,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "931e3b15d19ae608",
+  "name" : "住院血糖添加",
+  "time" : {
+    "start" : 1636428695844,
+    "stop" : 1636428696031,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90d1a5c14da8cc5f",
+  "name" : "患者列表",
+  "time" : {
+    "start" : 1636428693010,
+    "stop" : 1636428693087,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e327e24033ec0ed7",
+  "name" : "根据任务是不是解析是解析则添加血糖",
+  "time" : {
+    "start" : 1636428698595,
+    "stop" : 1636428698600,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bbed92f85faa12",
+  "name" : "住院患者血糖列表",
+  "time" : {
+    "start" : 1636428695019,
+    "stop" : 1636428695149,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d7ac82998a7bea5",
+  "name" : "编辑试纸",
+  "time" : {
+    "start" : 1636428704818,
+    "stop" : 1636428704966,
+    "duration" : 148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad3981fa42e10232",
+  "name" : "预警忽略",
+  "time" : {
+    "start" : 1636428704092,
+    "stop" : 1636428704242,
+    "duration" : 150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f53a7f5e807bcae8",
+  "name" : "住院患者血糖列表",
+  "time" : {
+    "start" : 1636428695154,
+    "stop" : 1636428695271,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f387afbafc89a26b",
+  "name" : "查询质控",
+  "time" : {
+    "start" : 1636428707715,
+    "stop" : 1636428707782,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "512107f0175aa098",
+  "name" : "预警列表",
+  "time" : {
+    "start" : 1636428703876,
+    "stop" : 1636428704088,
+    "duration" : 212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ecae894b7296e19",
+  "name" : "住院血糖添加",
+  "time" : {
+    "start" : 1636428697138,
+    "stop" : 1636428697313,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "daf1c9212d4103b2",
+  "name" : "预警处理",
+  "time" : {
+    "start" : 1636428704245,
+    "stop" : 1636428704398,
+    "duration" : 153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2a3c975e133da30",
+  "name" : "患者列表",
+  "time" : {
+    "start" : 1636428692917,
+    "stop" : 1636428693006,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16e75d74729a6dae",
+  "name" : "换床",
+  "time" : {
+    "start" : 1636428693987,
+    "stop" : 1636428694110,
+    "duration" : 123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f450f39df914fd07",
+  "name" : "临时检测血糖添加",
+  "time" : {
+    "start" : 1636428701935,
+    "stop" : 1636428702149,
+    "duration" : 214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fac3dcfc3b9210a9",
+  "name" : "住院血糖添加",
+  "time" : {
+    "start" : 1636428696047,
+    "stop" : 1636428696218,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8dcfbdfb64982c31",
+  "name" : "住院血糖添加",
+  "time" : {
+    "start" : 1636428696223,
+    "stop" : 1636428696399,
+    "duration" : 176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3d9949415b7a902",
+  "name" : "查询试纸",
+  "time" : {
+    "start" : 1636428705288,
+    "stop" : 1636428705474,
+    "duration" : 186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f6c711502b8d175",
+  "name" : "编辑质控液",
+  "time" : {
+    "start" : 1636428705853,
+    "stop" : 1636428706003,
+    "duration" : 150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90291dd0289d8474",
+  "name" : "预警列表",
+  "time" : {
+    "start" : 1636428703692,
+    "stop" : 1636428703863,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ee487a5770a4654",
+  "name" : "患者列表",
+  "time" : {
+    "start" : 1636428693190,
+    "stop" : 1636428693275,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e54baa901a6ed04",
+  "name" : "住院患者血糖删除",
+  "time" : {
+    "start" : 1636428698282,
+    "stop" : 1636428698459,
+    "duration" : 177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6946f3bed3be51e2",
+  "name" : "住院血糖添加",
+  "time" : {
+    "start" : 1636428696962,
+    "stop" : 1636428697132,
+    "duration" : 170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "914891a0f775bf",
+  "name" : "删除质控液",
+  "time" : {
+    "start" : 1636428706007,
+    "stop" : 1636428706141,
+    "duration" : 134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1216261b108355a",
+  "name" : "查询质控液",
+  "time" : {
+    "start" : 1636428706290,
+    "stop" : 1636428706357,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80eea2bafda726d9",
+  "name" : "临时检测血糖添加",
+  "time" : {
+    "start" : 1636428701724,
+    "stop" : 1636428701930,
+    "duration" : 206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a188dbedc8b385d",
+  "name" : "查询质控",
+  "time" : {
+    "start" : 1636428707641,
+    "stop" : 1636428707711,
+    "duration" : 70
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5142c7c4ef5a929d",
+  "name" : "添加试纸",
+  "time" : {
+    "start" : 1636428705118,
+    "stop" : 1636428705281,
+    "duration" : 163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99a4142299bda4f5",
+  "name" : "添加患者",
+  "time" : {
+    "start" : 1636428694563,
+    "stop" : 1636428694700,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d664743bd746155",
+  "name" : "临时检测血糖修改",
+  "time" : {
+    "start" : 1636428702154,
+    "stop" : 1636428702307,
+    "duration" : 153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3028a68d1afe16a1",
+  "name" : "住院患者血糖报告",
+  "time" : {
+    "start" : 1636428695421,
+    "stop" : 1636428695553,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe8149c4f80de94e",
+  "name" : "临时检测血糖值绑定患者",
+  "time" : {
+    "start" : 1636428702311,
+    "stop" : 1636428702533,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33c195904464762d",
+  "name" : "换床",
+  "time" : {
+    "start" : 1636428694114,
+    "stop" : 1636428694270,
+    "duration" : 156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6727f8154f919ec5",
+  "name" : "临时检测血糖删除",
+  "time" : {
+    "start" : 1636428702942,
+    "stop" : 1636428703181,
+    "duration" : 239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4cbf8646c58744e",
+  "name" : "查询质控",
+  "time" : {
+    "start" : 1636428707785,
+    "stop" : 1636428707873,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c817f09dd6e5eb4f",
+  "name" : "更新患者基本信息",
+  "time" : {
+    "start" : 1636428694274,
+    "stop" : 1636428694418,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35e92e1b4f533596",
+  "name" : "出院患者列表",
+  "time" : {
+    "start" : 1636428693521,
+    "stop" : 1636428693606,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6dde94ab68bc2987",
+  "name" : "患者详情",
+  "time" : {
+    "start" : 1636428693794,
+    "stop" : 1636428693892,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d655dfc338fdce5",
+  "name" : "出院患者列表",
+  "time" : {
+    "start" : 1636428693609,
+    "stop" : 1636428693694,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f0001b15c91464a",
+  "name" : "住院患者血糖趋势图",
+  "time" : {
+    "start" : 1636428697683,
+    "stop" : 1636428697806,
+    "duration" : 123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1119b2c44442a409",
+  "name" : "住院血糖添加",
+  "time" : {
+    "start" : 1636428697319,
+    "stop" : 1636428697477,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1dddde0998ce8894",
+  "name" : "停止任务",
+  "time" : {
+    "start" : 1636428699700,
+    "stop" : 1636428701622,
+    "duration" : 1922
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17f8a180739a2ce1",
+  "name" : "更新患者基本信息",
+  "time" : {
+    "start" : 1636428694422,
+    "stop" : 1636428694559,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5feb2199a9ab3828",
+  "name" : "住院患者血糖修改",
+  "time" : {
+    "start" : 1636428698106,
+    "stop" : 1636428698278,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ff84c467d28d88f",
+  "name" : "患者任务列表",
+  "time" : {
+    "start" : 1636428698604,
+    "stop" : 1636428698781,
+    "duration" : 177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1773726dac86239f",
+  "name" : "编辑质控",
+  "time" : {
+    "start" : 1636428707191,
+    "stop" : 1636428707331,
+    "duration" : 140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3c4f2bcbb8561d",
+  "name" : "查询质控",
+  "time" : {
+    "start" : 1636428707876,
+    "stop" : 1636428707961,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56836d7537bd2b10",
+  "name" : "删除质控",
+  "time" : {
+    "start" : 1636428707335,
+    "stop" : 1636428707465,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0ffdb5e893694cf",
+  "name" : "患者详情",
+  "time" : {
+    "start" : 1636428693698,
+    "stop" : 1636428693791,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84e3ed99096e70c4",
+  "name" : "住院血糖添加",
+  "time" : {
+    "start" : 1636428696812,
+    "stop" : 1636428696958,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a415d0fbaf589613",
+  "name" : "住院血糖添加",
+  "time" : {
+    "start" : 1636428696602,
+    "stop" : 1636428696809,
+    "duration" : 207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "817ce91df7322a9a",
+  "name" : "住院患者血糖统计图",
+  "time" : {
+    "start" : 1636428697810,
+    "stop" : 1636428697913,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "831028893f743129",
+  "name" : "住院患者血糖报告",
+  "time" : {
+    "start" : 1636428695699,
+    "stop" : 1636428695839,
+    "duration" : 140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6822fec8647327d3",
+  "name" : "住院血糖添加",
+  "time" : {
+    "start" : 1636428697489,
+    "stop" : 1636428697679,
+    "duration" : 190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "baaf8b537f752028",
+  "name" : "任务详情",
+  "time" : {
+    "start" : 1636428698790,
+    "stop" : 1636428698940,
+    "duration" : 150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5681d835ebf4aa8e",
+  "name" : "出院患者列表",
+  "time" : {
+    "start" : 1636428693413,
+    "stop" : 1636428693516,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bda1dd37e21f8e4",
+  "name" : "临时检测血糖列表",
+  "time" : {
+    "start" : 1636428702770,
+    "stop" : 1636428702938,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4fa8165a3f99f2b",
+  "name" : "临时检测血糖列表",
+  "time" : {
+    "start" : 1636428702548,
+    "stop" : 1636428702764,
+    "duration" : 216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c09091e64954ecc",
+  "name" : "住院血糖添加",
+  "time" : {
+    "start" : 1636428696403,
+    "stop" : 1636428696595,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18e0a131ad8e9280",
+  "name" : "查询试纸",
+  "time" : {
+    "start" : 1636428705482,
+    "stop" : 1636428705658,
+    "duration" : 176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4531c14085a1b583",
+  "name" : "住院患者血糖报告",
+  "time" : {
+    "start" : 1636428695565,
+    "stop" : 1636428695695,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18c3f46952488f9e",
+  "name" : "住院患者血糖修改",
+  "time" : {
+    "start" : 1636428697917,
+    "stop" : 1636428698095,
+    "duration" : 178
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90e49c3be01431f9",
+  "name" : "患者列表",
+  "time" : {
+    "start" : 1636428693090,
+    "stop" : 1636428693187,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66c899ee419d74a3",
+  "name" : "住院患者血糖列表",
+  "time" : {
+    "start" : 1636428695275,
+    "stop" : 1636428695417,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "805598b4986cdff2",
+  "name" : "预警列表",
+  "time" : {
+    "start" : 1636428703438,
+    "stop" : 1636428703689,
+    "duration" : 251
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c2ae3f267ea4627",
+  "name" : "出院患者列表",
+  "time" : {
+    "start" : 1636428693278,
+    "stop" : 1636428693402,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17d24ff7de2742e0",
+  "name" : "添加质控液",
+  "time" : {
+    "start" : 1636428706144,
+    "stop" : 1636428706286,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

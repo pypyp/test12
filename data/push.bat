@@ -1,0 +1,1 @@
+adb pull /data/data/com.vivachek.nova.tnineeightzeroone/databases/  C:\Users\zf\PycharmProjects\jiekou\data

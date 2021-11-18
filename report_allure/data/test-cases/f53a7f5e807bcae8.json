@@ -1,0 +1,81 @@
+{
+  "uid" : "f53a7f5e807bcae8",
+  "name" : "住院患者血糖列表",
+  "fullName" : "testCase.test_zhuyuan.test_patient_blood.Test_zy_blood#test_zy_glu_list",
+  "historyId" : "b03fcdf1533bd3c255df1da3b361a014",
+  "time" : {
+    "start" : 1636428695154,
+    "stop" : 1636428695271,
+    "duration" : 117
+  },
+  "description" : "该接口写了3个用例，本次住院，上次住院，全部住院",
+  "descriptionHtml" : "<p>该接口写了3个用例，本次住院，上次住院，全部住院</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "该接口写了3个用例，本次住院，上次住院，全部住院",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7942192648aa881d",
+      "name" : "log",
+      "source" : "7942192648aa881d.txt",
+      "type" : "text/plain",
+      "size" : 1118
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "住院患者血糖"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.test_zhuyuan"
+  }, {
+    "name" : "suite",
+    "value" : "test_patient_blood"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_zy_blood"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BFBFSDO6"
+  }, {
+    "name" : "thread",
+    "value" : "16208-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_zhuyuan.test_patient_blood"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "info",
+    "value" : "'{\"userId\": \"510415980904579072\", \"pageNo\": 1, \"orderBy\": \"measure_time desc\", \"pageSize\": 10, \"patGluStatus\": 2}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f53a7f5e807bcae8.json",
+  "parameterValues" : [ "'{\"userId\": \"510415980904579072\", \"pageNo\": 1, \"orderBy\": \"measure_time desc\", \"pageSize\": 10, \"patGluStatus\": 2}'" ]
+}

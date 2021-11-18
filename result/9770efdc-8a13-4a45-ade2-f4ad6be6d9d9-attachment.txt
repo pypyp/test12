@@ -1,0 +1,7 @@
+INFO     mylogger:open_database.py:27 执行的sqlselect * from `mengjin`.`dev_info` where id ='16'
+DEBUG    mylogger:test_dev.py:51 编辑设备：传参{'id': 16, 'sn': '359B0000398', 'bindModule': 1, 'contrastTest': 0, 'devQuality': 0, 'devStatus': 0, 'enableAdb': 1, 'enableMtk': 0, 'enableTouchFeedback': 1, 'externalQuality': 0, 'inhosDeptId': '1004', 'uploadMtk': 0}返回体{'code': 1003, 'msg': '参数错误'}
+ERROR    mylogger:test_dev.py:58 编辑设备 接口报错
+Traceback (most recent call last):
+  File "C:\Users\zf\PycharmProjects\jiekou\testCase\test_devices\test_dev.py", line 54, in test_dev_update
+    assert data[0]['enable_touch_feedback'] == data1['enableTouchFeedback']
+AssertionError: assert 0 == 1

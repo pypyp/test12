@@ -1,0 +1,2 @@
+INFO     mylogger:open_database.py:27 执行的sqlselect count(*) from `mengjin`.`medical_order`where user_id='510413310722572288'
+DEBUG    mylogger:test_order.py:53 患者任务列表信息：传参{"userId": "510413310722572288"}返回体{'code': 0, 'msg': '请求成功', 'data': {'headInfo': {'num1': 1, 'num4': 0, 'num3': 0, 'num2': 1}, 'list': [{'id': 8054, 'userId': '510413310722572288', 'iptNum': '44', 'name': 'CS', 'entrust': '', 'docId': 'vivachek', 'docName': '管理员', 'type': 0, 'startTime': '2021-11-09 11:26:49', 'createTime': '2021-11-09 11:26:48', 'timeType': 'q2h', 'status': 1}]}}

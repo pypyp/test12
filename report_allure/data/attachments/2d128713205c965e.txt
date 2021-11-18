@@ -1,0 +1,2 @@
+INFO     mylogger:open_database.py:27 执行的sqlselect * from `mengjin`.`medical_order_detail`where id='71954' 
+DEBUG    mylogger:test_order.py:73 患者任务列表信息：传参{"id": 71954}返回体{'code': 0, 'msg': '请求成功'}

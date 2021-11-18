@@ -1,0 +1,2 @@
+INFO     mylogger:open_database.py:27 执行的sqlselect * from `mengjin`.`qc_record` where id ='15'
+DEBUG    mylogger:test_qc_record.py:59 编辑质控：传参{'id': 15, 'paperId': 8, 'result': 0, 'liquidId': 4, 'measureTime': '2021-11-09 11:20:29', 'sn': '359B0000357', 'value': 8}返回体{'code': 0, 'msg': '请求成功'}

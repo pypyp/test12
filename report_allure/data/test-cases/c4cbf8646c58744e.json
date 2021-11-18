@@ -1,0 +1,67 @@
+{
+  "uid" : "c4cbf8646c58744e",
+  "name" : "查询质控",
+  "fullName" : "testCase.test_qc.test_qc_record.Test_qc_record#test_qc_list",
+  "historyId" : "7a9987898a7e719e37c290dea607f13b",
+  "time" : {
+    "start" : 1636428707785,
+    "stop" : 1636428707873,
+    "duration" : 88
+  },
+  "description" : "该接口写了4个用例添加全部，根据sn，根据浓度，根据，结果",
+  "descriptionHtml" : "<p>该接口写了4个用例添加全部，根据sn，根据浓度，根据，结果</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "质控"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.test_qc"
+  }, {
+    "name" : "suite",
+    "value" : "test_qc_record"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_qc_record"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BFBFSDO6"
+  }, {
+    "name" : "thread",
+    "value" : "16208-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_qc.test_qc_record"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "info",
+    "value" : "'{\"pageNo\": 1, \"pageSize\": 15, \"result\": \"0\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=4)" ]
+  },
+  "source" : "c4cbf8646c58744e.json",
+  "parameterValues" : [ "'{\"pageNo\": 1, \"pageSize\": 15, \"result\": \"0\"}'" ]
+}

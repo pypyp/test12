@@ -1,0 +1,78 @@
+{
+  "uid" : "43c0058dfe48c836",
+  "name" : "控糖目标",
+  "fullName" : "test_zhuyuan.test_patient.Testzhuyuan#test_healthArchives",
+  "historyId" : "0b05c6d14050471c1c7840bade998089",
+  "time" : {
+    "start" : 1636428693895,
+    "stop" : 1636428693984,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dd034c1b26738f33",
+      "name" : "log",
+      "source" : "dd034c1b26738f33.txt",
+      "type" : "text/plain",
+      "size" : 1599
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "住院患者"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_zhuyuan"
+  }, {
+    "name" : "suite",
+    "value" : "test_patient"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testzhuyuan"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BFBFSDO6"
+  }, {
+    "name" : "thread",
+    "value" : "16208-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_zhuyuan.test_patient"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "info",
+    "value" : "'{\"userId\": \"510415980904579072\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43c0058dfe48c836.json",
+  "parameterValues" : [ "'{\"userId\": \"510415980904579072\"}'" ]
+}
