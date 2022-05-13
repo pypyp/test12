@@ -1,0 +1,11 @@
+- describe: 编辑医嘱
+  parame:
+    id: {{read_basic_info().order_info.orderid}}
+    userId: '{{read_basic_info().order_info.userId}}'
+    type: 0
+    timeType: 随机
+    startTime: '{{get_time()}}'
+    entrust: zdh
+  result:
+    code: 0
+    msg: 请求成功

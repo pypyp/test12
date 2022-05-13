@@ -1,2 +1,0 @@
-INFO     mylogger:open_database.py:27 执行的sqlselect * from `mengjin`.`medical_order`order by id desc 
-DEBUG    mylogger:test_order.py:98 患者任务列表信息：传参{"id": 8054, "userId": "510413310722572288", "type": 0, "timeType": "\u968f\u673a", "startTime": "2021-11-09 11:31:38", "entrust": "zdh"}返回体{'code': 0, 'msg': '请求成功'}

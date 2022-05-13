@@ -1,5 +1,8 @@
+# coding=UTF-8
+import os,sys
 import time
-import random
+import random,json,datetime
+sys.path.append(r''+os.path.abspath('../'))
 class Ran():
 
     def phoneNORandomGenerator(self):
@@ -8,7 +11,7 @@ class Ran():
                    "155", "156", "157", "158", "159", "186", "187", "188"]
         return random.choice(prelist) + "".join(random.choice("0123456789") for i in range(8))
     def number(self):
-        number = random.randint(1,200)
+        number = random.randint(1,500)
         return number
     def ran(self):
         #  随机生成年月日
@@ -48,3 +51,4 @@ class Ran():
         #  前17位每位乘上系数之后的和除以11得到的余数对照表，比如余数是0，那第18位就是1
         mat = {0: '1', 1: '0', 2: 'X', 3: '9', 4: '8', 5: '7', 6: '6', 7: '5', 8: '4', 9: '3', 10: '2'}
         return ran + mat[summat % 11]
+

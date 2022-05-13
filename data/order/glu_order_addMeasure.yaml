@@ -1,0 +1,19 @@
+# coding=UTF-8
+- describe: 根据医嘱添加血趟
+  analysisModel: {{read_basic_info().order_info.analysisModel}}
+  parame:
+    id: {{read_basic_info().order_info.id}}
+    timeType: {{read_basic_info().order_info.timeType}}
+    nurseId: '{{read_basic_info().user_info.userId}}'
+    measureTime: '{{get_time()}}'
+    method: 0
+    value: 5
+    unusual: 1
+    valueUnit: 1
+    comment: zdh
+    userId: '{{read_basic_info().order_info.userId}}'
+
+  result:
+    code: 0
+    msg: 请求成功
+

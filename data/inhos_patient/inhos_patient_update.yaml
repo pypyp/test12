@@ -1,0 +1,56 @@
+
+- describe: 更新患者手机号
+  parame:
+    name: '{{read_basic_info().inhos_patient_info.name}}'
+    birthday: {{read_basic_info().inhos_patient_info.birthday}}
+    iptNum: '{{read_basic_info().inhos_patient_info.iptNum}}'
+    deptId: '{{read_basic_info().inhos_patient_info.deptId}}'
+    iptTime: '{{read_basic_info().inhos_patient_info.iptTime}}'
+    status: 1
+    phone: '{{phone()}}'
+    hbalc: null
+    gender: '{{read_basic_info().inhos_patient_info.gender}}'
+    bedNum: '{{read_basic_info().inhos_patient_info.bedNum}}'
+    userId: '{{read_basic_info().inhos_patient_info.userId}}'
+  result:
+    code: 0
+    msg: 请求成功
+
+
+
+#- describe: 更新患者床号
+#  parame:
+#    name: {{read_basic_info().inhos_patient_info.name}}
+#    birthday: {{read_basic_info().inhos_patient_info.birthday}}
+#    iptNum: {{read_basic_info().inhos_patient_info.iptNum}}
+#    deptId: 52
+#    iptTime: {{read_basic_info().inhos_patient_info.iptTime}}
+#    status: 1
+#    hbalc: null
+#    gender: 1
+#    bedNum: 10
+#    phone: {{phone().phone}}
+#    userId: {{read_basic_info().inhos_patient_info.userId}}
+#
+#  result:
+#    code: 200
+#    msg: 请求成功
+
+#- describe: 更新患者生日
+#  parame:
+#    name: {{read_basic_info().inhos_patient_info.name}}
+#    birthday: 1997-02-26
+#    iptNum: {{read_basic_info().inhos_patient_info.iptNum}}
+#    deptId: 52
+#    iptTime: {{read_basic_info().inhos_patient_info.iptTime}}
+#    status: 1
+#    hbalc: null
+#    gender: 1
+#    bedNum: 10
+#    phone: {{read_basic_info().inhos_patient_info.phone}}
+#    userId: {{read_basic_info().inhos_patient_info.userId}}
+#
+#  result:
+#    code: 200
+#    msg: 请求成功
+

@@ -1,0 +1,39 @@
+- describe: 查询所有出院患者
+  parame:
+    pageNo: 1
+    pageSize: 20
+  result:
+    code: 0
+    msg: 请求成功
+- describe: 筛选科室出院患者
+  parame:
+    deptId: '{{read_basic_info().inhos_patient_info.deptId}}'
+    pageNo: 1
+    pageSize: 20
+  result:
+    code: 0
+    msg: 请求成功
+- describe: 筛选床号出院患者
+  parame:
+    bedNum: '{{read_basic_info().inhos_patient_info.bedNum}}'
+    pageNo: 1
+    pageSize: 20
+  result:
+    code: 0
+    msg: 请求成功
+- describe: 筛选住院号出院患者
+  parame:
+    iptNum: '{{read_basic_info().inhos_patient_info.iptNum}}'
+    pageNo: 1
+    pageSize: 20
+  result:
+    code: 0
+    msg: 请求成功
+- describe: 筛选姓名出院患者
+  parame:
+    name: '{{read_basic_info().inhos_patient_info.name}}'
+    pageNo: 1
+    pageSize: 20
+  result:
+    code: 0
+    msg: 请求成功

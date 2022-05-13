@@ -2,7 +2,7 @@ import sqlite3
 from testCase.log import logger
 class sqlite():
     def __init__(self):
-        self.conn = sqlite3.connect("../data/common.db")
+        self.conn = sqlite3.connect("C:\9801\databases\common.db")
         self.cur = self.conn.cursor()
 
     def __del__(self):  # 对象资源被释放时触发，在对象即将被删除时的最后操作

@@ -1,0 +1,65 @@
+basic:
+  header_path: ../data/basic_info/headers/extract.yaml #记录登陆账号的请求头等
+  inhos_patient_basic_info: ../data/basic_info/inhos_patient_info/zy.basic.yaml #获取一个患者的基础信息的yaml文件
+  inhos_patient_blood_info: ../data/basic_info/inhos_patient_blood_info/blood_info.yaml #获取一个患者血糖的基础信息的yaml文件
+  inhos_temp_info: ../data/basic_info/temp_blood_info/temp_blood.yaml
+  order_info: ../data/basic_info/order_info/order_info.yaml
+  paper_info: ../data/basic_info/sn_paper_liquid_info/paper_info.yaml  #试纸幸喜
+  liquid_info: ../data/basic_info/sn_paper_liquid_info/liquid_info.yaml  #质控液
+  sn_info: ../data/basic_info/sn_paper_liquid_info/sn_info.yaml  #设备
+  qc_info: ../data/basic_info/qc_info/qc_info.yaml
+  mz_patient_info: ../data/basic_info/mz_patient_info/mz_patient_info.yaml
+  mz_patient_blood_info: ../data/basic_info/mz_patient_blood_info/mz_patient_blood_info.yaml
+
+#院内患者的接口测试用例的文件地址
+inhos_patient_list: ../data/inhos_patient/inhos_patient_list.yaml  #住院患者
+inhos_patient_list_leave: ../data/inhos_patient/inhos_patient_list_leave.yaml #出院患者
+inhos_patient_info: ../data/inhos_patient/inhos_patient_info.yaml #患者基本信息
+inhos_patient_info_healthArchives: ../data/inhos_patient/inhos_patient_info_healthArchives.yaml #患者控糖目标
+inhos_patient_changebed: ../data/inhos_patient/inhos_patient_changebed.yaml #换床
+inhos_patient_update: ../data/inhos_patient/inhos_patient_update.yaml #更新患者信息
+inhos_patient_add : ../data/inhos_patient/inhos_patient_add.yaml #患者登记
+inhos_patient_leave : ../data/inhos_patient_leave.yaml #患者登记
+
+
+#院内患者血糖测试用例的文件地址
+inhos_glu_add: ../data/inhos_patient_blood/inhos_glu_add.yaml #添加血糖
+inhos_glu_del: ../data/inhos_patient_blood/inhos_glu_del.yaml #删除血糖
+inhos_glu_list: ../data/inhos_patient_blood/inhos_glu_list.yaml #血糖列表
+inhos_glus_report: ../data/inhos_patient_blood/inhos_glus_report.yaml #血糖报告
+inhos_glu_update: ../data/inhos_patient_blood/inhos_glu_update.yaml #更新血糖
+inhos_glu_patientPieChart: ../data/inhos_patient_blood/inhos_glu_patientPieChart.yaml #血糖统计图
+inhos_glu_patientTrendChart: ../data/inhos_patient_blood/inhos_glu_patientTrendChart.yaml #血糖趋势图
+
+
+#临时检测血糖测试用例的文件地址
+inhos_measure_temp_add: ../data/temp_blood/inhos_measure_temp_add.yaml #添加临时检测
+inhos_measure_temp_update: ../data/temp_blood/inhos_measure_temp_update.yaml #更新临时检测血糖
+inhos_measure_temp_list: ../data/temp_blood/inhos_measure_temp_list.yaml #临时检测血糖列表
+inhos_measure_temp_delete: ../data/temp_blood/inhos_measure_temp_delete.yaml #删除临时检测
+
+
+#院内患者医嘱测试用例文件地址
+inhos_measure_glu_order_webOrderList: ../data/order/inhos_measure_glu_order_webOrderList.yaml #患者任务列表
+inhos_measure_glu_order_getPatientOrderList: ../data/order/inhos_measure_glu_order_getPatientOrderList.yaml #患者任务列表
+inhos_measure_glu_order_info: ../data/order/inhos_measure_glu_order_info.yaml #任务详情
+inhos_measure_glu_order_update: ../data/order/inhos_measure_glu_order_update.yaml #更新医嘱
+inhos_measure_glu_order_stop: ../data/order/inhos_measure_glu_order_stop.yaml #停止医嘱
+glu_order_addMeasure: ../data/order/glu_order_addMeasure.yaml #解析模式通过医嘱添加血糖
+
+#质控
+qc_record_list: ../data/qc/qc_record_list.yaml #质控查询
+qc_record_add: ../data/qc/qc_record_add.yaml #质控添加
+qc_record_update: ../data/qc/qc_record_update.yaml #质控更新
+qc_record_delete: ../data/qc/qc_record_delete.yaml #质控删除
+qc_record_statistics: ../data/qc/qc_record_statistics.yaml #质控统计
+qc_record_analysis: ../data/qc/qc_record_analysis.yaml #质控分析
+
+
+#质控
+mz_patient_list: ../data/mz/qc_record_list.yaml #门诊患者列表
+mz_patient_info: ../data/mz/qc_record_add.yaml #门诊患者信息
+mz_patient_listRecord: ../data/mz/qc_record_update.yaml #门诊患者门诊记录
+
+
+

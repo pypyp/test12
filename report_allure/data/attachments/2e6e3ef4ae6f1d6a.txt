@@ -1,7 +1,0 @@
-INFO     mylogger:open_database.py:27 执行的sqlselect * from `mengjin`.`paper_info` where id ='8'
-DEBUG    mylogger:test_paper.py:69 删除试纸：传参{'id': 8}返回体{'code': 0, 'msg': '请求成功'}
-ERROR    mylogger:test_paper.py:76 删除试纸 接口报错
-Traceback (most recent call last):
-  File "C:\Users\zf\PycharmProjects\jiekou\testCase\test_devices\test_paper.py", line 73, in test_paper_del
-    assert response['code'] == 1
-AssertionError: assert 0 == 1

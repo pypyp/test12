@@ -1,0 +1,17 @@
+- describe: 换床正常床位
+  parame:
+    bedNum: 5
+    userId: '{{read_basic_info().inhos_patient_info.userId}}'
+  result:
+    code: 0
+    msg: 请求成功
+
+
+- describe: 换床带+号的床位
+  parame:
+    bedNum: +5
+    userId: '{{read_basic_info().inhos_patient_info.userId}}'
+  result:
+    code: 0
+    msg: 请求成功
+

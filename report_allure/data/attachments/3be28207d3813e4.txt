@@ -1,2 +1,0 @@
-INFO     mylogger:open_database.py:27 执行的sqlselect * from `mengjin`.`qc_record` order by id desc
-DEBUG    mylogger:test_qc_record.py:96 添加质控：传参{"value": 15.3, "sn": "359B0000357", "measureTime": "2021-11-09 11:31:47", "result": 0, "paperId": 9, "liquidId": 5}返回体{'code': 0, 'msg': '请求成功'}

@@ -1,0 +1,44 @@
+
+- describe: 查询当前登陆账号权限下当天的所有医嘱
+  parame:
+    endTime: '{{get_start_end_time().endTime}}'
+    pageNo: 1
+    pageSize: 15
+    startTime: '{{get_start_end_time().startTime}}'
+  result:
+    code: 0
+    msg: 请求成功
+
+- describe: 根据科室查询当天的所有医嘱
+  parame:
+    deptId: '{{read_basic_info().order_info.deptId}}'
+    endTime: '{{get_start_end_time().endTime}}'
+    pageNo: 1
+    pageSize: 15
+    startTime: '{{get_start_end_time().startTime}}'
+  result:
+    code: 0
+    msg: 请求成功
+
+- describe: 根据患者姓名查询当天的所有医嘱
+  parame:
+    endTime: '{{get_start_end_time().endTime}}'
+    name: '{{read_basic_info().order_info.name}}'
+    pageNo: 1
+    pageSize: 15
+    startTime: '{{get_start_end_time().startTime}}'
+  result:
+    code: 0
+    msg: 请求成功
+
+- describe: 根据患者住院号查询当天的所有医嘱
+  parame:
+    endTime: '{{get_start_end_time().endTime}}'
+    name: '{{read_basic_info().order_info.iptNum}}'
+    pageNo: 1
+    pageSize: 15
+    startTime: '{{get_start_end_time().startTime}}'
+  result:
+    code: 0
+    msg: 请求成功
+

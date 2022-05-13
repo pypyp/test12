@@ -1,0 +1,9 @@
+- describe: 根据任务详情
+
+  userid:
+    userId: '{{read_basic_info().order_info.userId}}'
+  parame:
+    id:       #在代码中处理，由于编辑完医嘱会停掉那条医嘱生成新的医嘱
+  result:
+    code: 0
+    msg: 请求成功

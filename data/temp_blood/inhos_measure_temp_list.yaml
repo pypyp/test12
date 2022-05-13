@@ -1,0 +1,30 @@
+- describe: 获取当天全部的临时检测数据
+  parame:
+    startTime: '{{get_start_end_time().startTime}}'
+    endTime: '{{get_start_end_time().endTime}}'
+  result:
+    code: 0
+    msg: 请求成功
+
+- describe: 根据科室查询临时检测数据
+  parame:
+    startTime: '{{get_start_end_time().startTime}}'
+    endTime: '{{get_start_end_time().endTime}}'
+    deptId: '{{read_basic_info().inhos_patient_info.deptId}}'
+  result:
+    code: 0
+    msg: 请求成功
+
+
+- describe: 根据时段临时检测数据
+  parame:
+    startTime: '{{get_start_end_time().startTime}}'
+    endTime: '{{get_start_end_time().endTime}}'
+#    deptId: {{read_basic_info().inhos_patient_info.deptId}}
+    timeSlots:
+      - 空腹
+      - 早餐后
+
+  result:
+    code: 0
+    msg: 请求成功

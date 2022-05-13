@@ -1,0 +1,14 @@
+- describe: 添加患者
+  parame:
+    name: CS
+    gender: 2
+    birthday: '1997-02-26'
+    iptNum: '{{num()}}'
+    deptId: '{{read_basic_info().inhos_patient_info.deptId}}'
+    deptName: '{{read_basic_info().inhos_patient_info.deptName}}'
+    iptTime: '{{get_time()}}'
+    bedNum: '{{read_basic_info().inhos_patient_info.bedNum}}'
+  result:
+    code: 0
+    msg: 请求成功
+

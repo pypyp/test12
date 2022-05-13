@@ -1,0 +1,6 @@
+- describe: 查询患者的所有医嘱
+  parame:
+    userId: '{{read_basic_info().order_info.userId}}'
+  result:
+    code: 0
+    msg: 请求成功

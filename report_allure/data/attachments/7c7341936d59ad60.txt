@@ -1,2 +1,0 @@
-INFO     mylogger:open_database.py:27 执行的sqlselect * from `mengjin`.`qc_liquid_info` where id ='4'
-DEBUG    mylogger:test_liquid.py:62 删除质控液：传参{'id': 4}返回体{'code': 0, 'msg': '请求成功'}

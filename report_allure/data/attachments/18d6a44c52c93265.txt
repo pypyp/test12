@@ -1,2 +1,0 @@
-INFO     mylogger:open_database.py:27 执行的sqlselect * from `mengjin`.`paper_info` where id ='8'
-DEBUG    mylogger:test_paper.py:51 编辑试纸：传参{'id': 8, 'specs': 1, 'paperNum': 100, 'productionDate': '2018-09-01', 'expiryDate': '2022-09-01', 'lowMaxLimit': 50.0, 'lowMinLimit': 2.0, 'mediumMaxLimit': 40.0, 'mediumMinLimit': 3.0, 'highMaxLimit': 30.0, 'highMinLimit': 6.0, 'batchNum': '2019020231'}返回体{'code': 0, 'msg': '请求成功'}

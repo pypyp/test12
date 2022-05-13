@@ -1,3 +1,0 @@
-INFO     mylogger:open_database.py:27 执行的sqlselect * from `mengjin`.`medical_order`order by id desc 
-INFO     mylogger:open_database.py:27 执行的sqlselect * from `mengjin`.`medical_order`where id='8055' 
-DEBUG    mylogger:test_order.py:125 停止任务：传参{"id": 8055}返回体{'code': 0, 'msg': '请求成功'}

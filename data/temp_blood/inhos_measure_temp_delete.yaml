@@ -1,0 +1,8 @@
+- describe: 删除临时检测
+  parame:
+    id: '{{read_basic_info().inhos_temp_info.id}}'
+
+
+  result:
+    code: 0
+    msg: 请求成功

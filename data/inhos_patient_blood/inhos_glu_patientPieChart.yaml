@@ -1,0 +1,7 @@
+- describe: 血糖统计图
+  parame:
+    userId: '{{read_basic_info().inhos_patient_blood_info.userId}}'
+    patGluStatus: 1
+  result:
+    code: 0
+    msg: 请求成功

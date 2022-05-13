@@ -1,0 +1,6 @@
+- describe: 根据任务详情
+  parame:
+    id: {{read_basic_info().order_info.orderid}}
+  result:
+    code: 0
+    msg: 请求成功

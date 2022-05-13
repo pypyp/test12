@@ -1,0 +1,31 @@
+- describe: 添加临时检测
+  parame:
+    value: 5
+    valueUnit: 1
+    method: 0
+    nurseId: '{{read_basic_info().user_info.userId}}'
+    timeType: q2h
+    measureTime: '{{get_time()}}'
+    unusual: 1
+    comment: 手动添加
+
+  result:
+    code: 0
+    msg: 请求成功
+
+
+- describe: 添加临时检测绑定患者
+  parame:
+    userId: '{{read_basic_info().inhos_patient_info.userId}}'
+    value: 5
+    valueUnit: 1
+    method: 0
+    nurseId: '{{read_basic_info().user_info.userId}}'
+    timeType: q2h
+    measureTime: '{{get_time()}}'
+    unusual: 1
+    comment: 手动添加
+
+  result:
+    code: 0
+    msg: 请求成功

@@ -1,0 +1,32 @@
+- describe: 修改血糖值
+  parame:
+    comment: 修改血糖值
+    id: '{{read_basic_info().inhos_patient_blood_info.id}}'
+    measureTime: '{{read_basic_info().inhos_patient_blood_info.measureTime}}'
+    method: 0
+    value: 5
+    nurseId: '{{read_basic_info().inhos_patient_blood_info.nurseId}}'
+    timeType: '{{read_basic_info().inhos_patient_blood_info.timeType}}'
+    unusual: 1
+    userId: '{{read_basic_info().inhos_patient_blood_info.userId}}'
+    valueUnit: 1
+  result:
+    code: 0
+    msg: 请求成功
+
+
+- describe: 修改血糖时段
+  parame:
+    comment: 修改时段
+    id: '{{read_basic_info().inhos_patient_blood_info.id}}'
+    measureTime: '{{read_basic_info().inhos_patient_blood_info.measureTime}}'
+    method: 0
+    value: 5
+    nurseId: '{{read_basic_info().inhos_patient_blood_info.nurseId}}'
+    timeType: q2h
+    unusual: 1
+    userId: '{{read_basic_info().inhos_patient_blood_info.userId}}'
+    valueUnit: 1
+  result:
+    code: 0
+    msg: 请求成功

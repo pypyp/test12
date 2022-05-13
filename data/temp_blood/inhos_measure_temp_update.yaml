@@ -1,0 +1,22 @@
+- describe: 修改临时检测
+  parame:
+    id: '{{read_basic_info().inhos_temp_info.id}}'
+    timeType: '早餐后'
+
+  result:
+    code: 0
+    msg: 请求成功
+
+
+- describe: 修改临时检测绑定患者
+  parame:
+    id: '{{read_basic_info().inhos_temp_info.id}}'
+    timeType: '早餐后'
+    userId: '{{read_basic_info().inhos_patient_info.userId}}'
+  result:
+    code: 0
+    msg: 请求成功
+
+
+
+

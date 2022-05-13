@@ -1,2 +1,0 @@
-INFO     mylogger:open_database.py:27 执行的sqlselect * from `mengjin`.`qc_record` where id ='15'
-DEBUG    mylogger:test_qc_record.py:77 删除质控液：传参{'id': 15}返回体{'code': 0, 'msg': '请求成功'}

@@ -42,6 +42,24 @@ def cmd_test():
 def get_update(list):
     print(list)
 
+def tt():
+    cmds = [
+        "cd /data/data/com.vivachek.nova.tnineeightzeroone/databases",
+        "ls",
+        "exit",  # 这是是非常关键的，退出
+    ]
+    obj = subprocess.Popen("adb shell", shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
+                           stderr=subprocess.PIPE)
+    print(("\n".join(cmds) + "\n"))
+    info = obj.communicate(("\n".join(cmds) + "\n").encode('utf-8'));
+    for item in info:
+        if item:
+            print(item.decode('gbk'))
 
+    # conn = sqlite3.connect("/data/data/com.vivachek.nova.tnineeightzeroone/databases/common.db")
+    # print(conn)
+
+if __name__ == '__main__':
+    tt()
 
 

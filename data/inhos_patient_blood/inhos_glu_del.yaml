@@ -1,0 +1,6 @@
+- describe: 删除血糖
+  parame:
+    id: '{{read_basic_info().inhos_patient_blood_info.id}}'
+  result:
+    code: 0
+    msg: 请求成功

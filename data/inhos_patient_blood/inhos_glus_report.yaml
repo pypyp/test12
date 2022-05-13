@@ -1,0 +1,23 @@
+- describe: 获取患者的全部血糖数据
+  parame:
+    userId: '{{read_basic_info().inhos_patient_blood_info.userId}}'
+    pageNo: 1
+    orderBy: measure_time desc
+    pageSize: 10
+    patGluStatus: 1
+  result:
+    code: 0
+    msg: 请求成功
+
+- describe: 根据时间查询患者的血糖数据
+  parame:
+    userId: '{{read_basic_info().inhos_patient_blood_info.userId}}'
+    pageNo: 1
+    orderBy: measure_time desc
+    pageSize: 10
+    patGluStatus: 1
+    startTime: '{{start_time()}}'
+    endTime: '{{get_time()}}'
+  result:
+    code: 0
+    msg: 请求成功

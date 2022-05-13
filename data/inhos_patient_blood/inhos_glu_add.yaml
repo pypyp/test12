@@ -1,0 +1,153 @@
+
+- describe: 添加正常血糖
+  parame:
+    userId: '{{read_basic_info().inhos_patient_blood_info.userId}}'
+    nurseId: '{{read_basic_info().user_info.userId}}'
+    timeType: 空腹
+    measureTime: '{{get_time()}}'
+    value: 6
+    unusual: 1
+    paperNum: 1
+    valueUnit: 1
+    method: 0
+
+  result:
+    code: 0
+    msg: 请求成功
+
+- describe: 添加高值血糖
+  parame:
+    userId: '{{read_basic_info().inhos_patient_blood_info.userId}}'
+    nurseId: '{{read_basic_info().user_info.userId}}'
+    value: 25.5
+    valueUnit: 1
+    method: 0
+    timeType: 早餐后
+    measureTime: '{{get_time()}}'
+    unusual: 2
+    paperNum: 1
+    comment: zdh1
+  result:
+    code: 0
+    msg: 请求成功
+
+- describe: 添加低值血糖
+  parame:
+    userId: '{{read_basic_info().inhos_patient_blood_info.userId}}'
+    value: 0.6
+    valueUnit: 1
+    method: 0
+    nurseId: '{{read_basic_info().user_info.userId}}'
+    timeType: 早餐后
+    measureTime: '{{get_time()}}'
+    unusual: 0
+    paperNum: 1
+    comment: zdh2
+  result:
+    code: 0
+    msg: 请求成功
+
+- describe: 添加high
+  parame:
+    userId: '{{read_basic_info().inhos_patient_blood_info.userId}}'
+    valueUnit: 1
+    method: 0
+    nurseId: '{{read_basic_info().user_info.userId}}'
+    timeType: 午餐前
+    measureTime: '{{get_time()}}'
+    unusual: 3
+    paperNum: 0
+    comment: zdh3
+  result:
+    code: 0
+    msg: 请求成功
+
+- describe: 添加low
+  parame:
+    userId: '{{read_basic_info().inhos_patient_blood_info.userId}}'
+    valueUnit: 1
+    method: 0
+    nurseId: '{{read_basic_info().user_info.userId}}'
+    timeType: 午餐后
+    measureTime: '{{get_time()}}'
+    unusual: 4
+    paperNum: 1
+    comment: zdh4
+  result:
+    code: 0
+    msg: 请求成功
+
+- describe: 添加拒测
+  parame:
+    userId: '{{read_basic_info().inhos_patient_blood_info.userId}}'
+    valueUnit: 1
+    method: 0
+    nurseId: '{{read_basic_info().user_info.userId}}'
+    timeType: 晚餐前
+    measureTime: '{{get_time()}}'
+    unusual: 5
+    paperNum: 0
+    comment: zdh5
+  result:
+    code: 0
+    msg: 请求成功
+
+- describe: 添加外出
+  parame:
+    userId: '{{read_basic_info().inhos_patient_blood_info.userId}}'
+    valueUnit: 1
+    method: 0
+    nurseId: '{{read_basic_info().user_info.userId}}'
+    timeType: 晚餐后
+    measureTime: '{{get_time()}}'
+    unusual: 6
+    paperNum: 0
+    comment: zdh6
+  result:
+    code: 0
+    msg: 请求成功
+
+- describe: 添加请假
+  parame:
+    userId: '{{read_basic_info().inhos_patient_blood_info.userId}}'
+    valueUnit: 1
+    method: 0
+    nurseId: '{{read_basic_info().user_info.userId}}'
+    timeType: 随机
+    measureTime: '{{get_time()}}'
+    unusual: 7
+    paperNum: 0
+    comment: zdh7
+  result:
+    code: 0
+    msg: 请求成功
+
+- describe: 添加已吃饭
+  parame:
+    userId: '{{read_basic_info().inhos_patient_blood_info.userId}}'
+    valueUnit: 1
+    method: 0
+    nurseId: '{{read_basic_info().user_info.userId}}'
+    timeType: 随机
+    measureTime: '{{get_time()}}'
+    unusual: 8
+    paperNum: 0
+    comment: zdh8
+  result:
+    code: 0
+    msg: 请求成功
+
+- describe: 添加未进食
+  parame:
+    userId: '{{read_basic_info().inhos_patient_blood_info.userId}}'
+    valueUnit: 1
+    method: 0
+    nurseId: '{{read_basic_info().user_info.userId}}'
+    timeType: q2h
+    measureTime: '{{get_time()}}'
+    unusual: 9
+    paperNum: 0
+    comment: zdh9
+  result:
+    code: 0
+    msg: 请求成功

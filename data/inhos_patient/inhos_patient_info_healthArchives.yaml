@@ -1,0 +1,6 @@
+- describe: 根据userid查看患者的控糖目标
+  parame:
+    userId: '{{read_basic_info().inhos_patient_info.userId}}'
+  result:
+    code: 0
+    msg: 请求成功
